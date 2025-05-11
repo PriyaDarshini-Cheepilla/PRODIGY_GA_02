@@ -20,8 +20,6 @@ def generate_image(prompt, model_id="runwayml/stable-diffusion-v1-5", output_dir
     return filename
 if __name__ == "__main__":
     prompt = (
-        "A futuristic city at sunset, with flying cars, neon lights, and tall buildings "
-        "with greenery growing on the sides. The streets should be empty, and the sky "
-        "should have a warm orange and purple hue."
+        "A peaceful sunrise over a calm lake surrounded by mountains. With soft, fluffy clouds scattered above."
     )
     generate_image(prompt, seed=42)
